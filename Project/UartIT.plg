@@ -1,0 +1,345 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\work\ClientMonitor\Project\ClientMonitor.uvproj
+Project File Date:  05/19/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+linking...
+Program Size: Code=5388 RO-data=268 RW-data=96 ZI-data=3184  
+"UartIT.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling Regtarge.c...
+linking...
+Program Size: Code=5384 RO-data=268 RW-data=96 ZI-data=3184  
+"UartIT.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=5384 RO-data=268 RW-data=96 ZI-data=3184  
+"UartIT.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\work\\ClientMonitor\\Project\\UartIT.AXF" 
+Set JLink Project File to "D:\work\ClientMonitor\Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20141212 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling Regtarge.c...
+linking...
+Program Size: Code=5384 RO-data=268 RW-data=96 ZI-data=3184  
+"UartIT.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling Regtarge.c...
+linking...
+Program Size: Code=5416 RO-data=268 RW-data=100 ZI-data=3180  
+"UartIT.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling Regtarge.c...
+linking...
+Program Size: Code=5416 RO-data=268 RW-data=100 ZI-data=3180  
+"UartIT.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+..\USER\TestPacketHelper.cpp(9): error:  #77-D: this declaration has no storage class or type specifier
+..\USER\TestPacketHelper.cpp:    USART_TEST=USART2;
+..\USER\TestPacketHelper.cpp:    ^
+..\USER\TestPacketHelper.cpp(9): error:  #144: a value of type "USART_TypeDef *" cannot be used to initialize an entity of type "int"
+..\USER\TestPacketHelper.cpp:    USART_TEST=USART2;
+..\USER\TestPacketHelper.cpp:               ^
+..\USER\TestPacketHelper.cpp: ..\USER\TestPacketHelper.cpp: 0 warnings, 2 errors
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+..\USER\TestPacketHelper.cpp(9): error:  #260-D: explicit type is missing ("int" assumed)
+..\USER\TestPacketHelper.cpp:    extern USART_TEST=USART2;
+..\USER\TestPacketHelper.cpp:           ^
+..\USER\TestPacketHelper.cpp(9): error:  #144: a value of type "USART_TypeDef *" cannot be used to initialize an entity of type "int"
+..\USER\TestPacketHelper.cpp:    extern USART_TEST=USART2;
+..\USER\TestPacketHelper.cpp:                      ^
+..\USER\TestPacketHelper.cpp: ..\USER\TestPacketHelper.cpp: 0 warnings, 2 errors
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+..\USER\TestPacketHelper.cpp(9): error:  #260-D: explicit type is missing ("int" assumed)
+..\USER\TestPacketHelper.cpp:    extern USART_TEST=USART2;
+..\USER\TestPacketHelper.cpp:           ^
+..\USER\TestPacketHelper.cpp(9): error:  #144: a value of type "USART_TypeDef *" cannot be used to initialize an entity of type "int"
+..\USER\TestPacketHelper.cpp:    extern USART_TEST=USART2;
+..\USER\TestPacketHelper.cpp:                      ^
+..\USER\TestPacketHelper.cpp: ..\USER\TestPacketHelper.cpp: 0 warnings, 2 errors
+compiling Regtarge.c...
+..\USER\regtarge.h(33): warning:  #1-D: last line of file ends without a newline
+..\USER\regtarge.h:   #endif
+..\USER\regtarge.h:         ^
+..\USER\regtarge.h: ..\USER\Regtarge.c: 1 warning, 0 errors
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+..\USER\regtarge.h(27): error:  #70: incomplete type is not allowed
+..\USER\regtarge.h:   FILE __stdout;
+..\USER\regtarge.h:        ^
+..\USER\regtarge.h(29): error:  #70: incomplete type is not allowed
+..\USER\regtarge.h:   FILE __stdin;
+..\USER\regtarge.h:        ^
+..\USER\regtarge.h(33): warning:  #1-D: last line of file ends without a newline
+..\USER\regtarge.h:   #endif
+..\USER\regtarge.h:         ^
+..\USER\TestPacketHelper.cpp(9): error:  #260-D: explicit type is missing ("int" assumed)
+..\USER\TestPacketHelper.cpp:    extern USART_TEST=USART2;
+..\USER\TestPacketHelper.cpp:           ^
+..\USER\TestPacketHelper.cpp(9): error:  #247: variable "USART_TEST" has already been defined
+..\USER\TestPacketHelper.cpp:    extern USART_TEST=USART2;
+..\USER\TestPacketHelper.cpp:           ^
+..\USER\TestPacketHelper.cpp(9): error:  #144: a value of type "USART_TypeDef *" cannot be used to initialize an entity of type "int"
+..\USER\TestPacketHelper.cpp:    extern USART_TEST=USART2;
+..\USER\TestPacketHelper.cpp:                      ^
+..\USER\TestPacketHelper.cpp: ..\USER\TestPacketHelper.cpp: 1 warning, 5 errors
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+..\USER\regtarge.h(27): error:  #70: incomplete type is not allowed
+..\USER\regtarge.h:   FILE __stdout;
+..\USER\regtarge.h:        ^
+..\USER\regtarge.h(29): error:  #70: incomplete type is not allowed
+..\USER\regtarge.h:   FILE __stdin;
+..\USER\regtarge.h:        ^
+..\USER\regtarge.h(33): warning:  #1-D: last line of file ends without a newline
+..\USER\regtarge.h:   #endif
+..\USER\regtarge.h:         ^
+..\USER\TestPacketHelper.cpp(9): error:  #247: variable "USART_TEST" has already been defined
+..\USER\TestPacketHelper.cpp:    extern USART_TypeDef* USART_TEST=USART2;
+..\USER\TestPacketHelper.cpp:                          ^
+..\USER\TestPacketHelper.cpp: ..\USER\TestPacketHelper.cpp: 1 warning, 3 errors
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+..\USER\regtarge.h(31): warning:  #1-D: last line of file ends without a newline
+..\USER\regtarge.h:   #endif
+..\USER\regtarge.h:         ^
+..\USER\TestPacketHelper.cpp(9): error:  #247: variable "USART_TEST" has already been defined
+..\USER\TestPacketHelper.cpp:    extern USART_TypeDef* USART_TEST=USART2;
+..\USER\TestPacketHelper.cpp:                          ^
+..\USER\TestPacketHelper.cpp: ..\USER\TestPacketHelper.cpp: 1 warning, 1 error
+compiling Regtarge.c...
+..\USER\regtarge.h(31): warning:  #1-D: last line of file ends without a newline
+..\USER\regtarge.h:   #endif
+..\USER\regtarge.h:         ^
+..\USER\regtarge.h: ..\USER\Regtarge.c: 1 warning, 0 errors
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+..\USER\regtarge.h(31): warning:  #1-D: last line of file ends without a newline
+..\USER\regtarge.h:   #endif
+..\USER\regtarge.h:         ^
+..\USER\TestPacketHelper.cpp(12): error:  #145: variable "USART_TEST" may not be initialized
+..\USER\TestPacketHelper.cpp:           extern USART_TypeDef* USART_TEST=USART2;
+..\USER\TestPacketHelper.cpp:                                 ^
+..\USER\TestPacketHelper.cpp: ..\USER\TestPacketHelper.cpp: 1 warning, 1 error
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+..\USER\regtarge.h(31): warning:  #1-D: last line of file ends without a newline
+..\USER\regtarge.h:   #endif
+..\USER\regtarge.h:         ^
+..\USER\TestPacketHelper.cpp(10): error:  #145: variable "USART_TEST" may not be initialized
+..\USER\TestPacketHelper.cpp:           extern USART_TypeDef* USART_TEST=USART2;
+..\USER\TestPacketHelper.cpp:                                 ^
+..\USER\TestPacketHelper.cpp: ..\USER\TestPacketHelper.cpp: 1 warning, 1 error
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+..\USER\TestPacketHelper.cpp(10): error:  #145: variable "USART_TEST" may not be initialized
+..\USER\TestPacketHelper.cpp:           extern USART_TypeDef* USART_TEST=USART2;
+..\USER\TestPacketHelper.cpp:                                 ^
+..\USER\TestPacketHelper.cpp: ..\USER\TestPacketHelper.cpp: 0 warnings, 1 error
+compiling Regtarge.c...
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+linking...
+UartIT.axf: Error: L6200E: Symbol USART_TEST multiply defined (by regtarge.o and testpackethelper.o).
+UartIT.axf: Not enough information to list image symbols.
+UartIT.axf: Not enough information to list the image map.
+UartIT.axf: Finished: 2 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+..\USER\TestPacketHelper.cpp(8): error:  #260-D: explicit type is missing ("int" assumed)
+..\USER\TestPacketHelper.cpp:    extern USART_TEST;
+..\USER\TestPacketHelper.cpp:           ^
+..\USER\TestPacketHelper.cpp(8): error:  #147: declaration is incompatible with "USART_TypeDef *USART_TEST" (declared at line 15 of "..\USER\regtarge.h")
+..\USER\TestPacketHelper.cpp:    extern USART_TEST;
+..\USER\TestPacketHelper.cpp:           ^
+..\USER\TestPacketHelper.cpp(11): error:  #513: a value of type "USART_TypeDef *" cannot be assigned to an entity of type "int"
+..\USER\TestPacketHelper.cpp:           USART_TEST=USART2;
+..\USER\TestPacketHelper.cpp:                     ^
+..\USER\TestPacketHelper.cpp: ..\USER\TestPacketHelper.cpp: 0 warnings, 3 errors
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+linking...
+UartIT.axf: Error: L6200E: Symbol USART_TEST multiply defined (by regtarge.o and testpackethelper.o).
+UartIT.axf: Not enough information to list image symbols.
+UartIT.axf: Not enough information to list the image map.
+UartIT.axf: Finished: 2 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+compiling Regtarge.c...
+linking...
+UartIT.axf: Error: L6200E: Symbol USART_TEST multiply defined (by regtarge.o and testpackethelper.o).
+UartIT.axf: Not enough information to list image symbols.
+UartIT.axf: Not enough information to list the image map.
+UartIT.axf: Finished: 2 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+linking...
+UartIT.axf: Error: L6200E: Symbol USART_TEST multiply defined (by regtarge.o and testpackethelper.o).
+UartIT.axf: Not enough information to list image symbols.
+UartIT.axf: Not enough information to list the image map.
+UartIT.axf: Finished: 2 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+..\USER\regtarge.h(24): error:  #70: incomplete type is not allowed
+..\USER\regtarge.h:   FILE __stdout;
+..\USER\regtarge.h:        ^
+..\USER\regtarge.h(26): error:  #70: incomplete type is not allowed
+..\USER\regtarge.h:   FILE __stdin;
+..\USER\regtarge.h:        ^
+..\USER\regtarge.h: ..\USER\TestPacketHelper.cpp: 0 warnings, 2 errors
+compiling Regtarge.c...
+..\USER\Regtarge.c(36): error:  #20: identifier "USART_TEST" is undefined
+..\USER\Regtarge.c:     if(USART_TEST==0) USART_TEST=   USART1;
+..\USER\Regtarge.c:        ^
+..\USER\Regtarge.c(46): error:  #20: identifier "USART_TEST" is undefined
+..\USER\Regtarge.c:     if(USART_TEST==0) USART_TEST=   USART1;
+..\USER\Regtarge.c:        ^
+..\USER\Regtarge.c: ..\USER\Regtarge.c: 0 warnings, 2 errors
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+..\USER\regtarge.h(29): warning:  #2681-D: name linkage conflicts with previous declaration of variable "std::__stdout" (declared at line 97 of "C:\Keil\ARM\RV31\INC\stdio.h")
+..\USER\regtarge.h:   FILE __stdout;
+..\USER\regtarge.h:        ^
+..\USER\regtarge.h(29): error:  #70: incomplete type is not allowed
+..\USER\regtarge.h:   FILE __stdout;
+..\USER\regtarge.h:        ^
+..\USER\regtarge.h(31): warning:  #2681-D: name linkage conflicts with previous declaration of variable "std::__stdin" (declared at line 97 of "C:\Keil\ARM\RV31\INC\stdio.h")
+..\USER\regtarge.h:   FILE __stdin;
+..\USER\regtarge.h:        ^
+..\USER\regtarge.h(31): error:  #70: incomplete type is not allowed
+..\USER\regtarge.h:   FILE __stdin;
+..\USER\regtarge.h:        ^
+..\USER\regtarge.h: ..\USER\TestPacketHelper.cpp: 2 warnings, 2 errors
+compiling Regtarge.c...
+..\USER\Regtarge.c(36): error:  #20: identifier "USART_TEST" is undefined
+..\USER\Regtarge.c:     if(USART_TEST==0) USART_TEST=   USART1;
+..\USER\Regtarge.c:        ^
+..\USER\Regtarge.c(46): error:  #20: identifier "USART_TEST" is undefined
+..\USER\Regtarge.c:     if(USART_TEST==0) USART_TEST=   USART1;
+..\USER\Regtarge.c:        ^
+..\USER\Regtarge.c: ..\USER\Regtarge.c: 0 warnings, 2 errors
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+compiling Regtarge.c...
+..\USER\Regtarge.c(39): error:  #20: identifier "USART_TEST" is undefined
+..\USER\Regtarge.c:     if(USART_TEST==0) USART_TEST=   USART1;
+..\USER\Regtarge.c:        ^
+..\USER\Regtarge.c(49): error:  #20: identifier "USART_TEST" is undefined
+..\USER\Regtarge.c:     if(USART_TEST==0) USART_TEST=   USART1;
+..\USER\Regtarge.c:        ^
+..\USER\Regtarge.c: ..\USER\Regtarge.c: 0 warnings, 2 errors
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+compiling Regtarge.c...
+linking...
+Program Size: Code=5388 RO-data=268 RW-data=100 ZI-data=3180  
+"UartIT.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\work\\ClientMonitor\\Project\\UartIT.AXF" 
+Set JLink Project File to "D:\work\ClientMonitor\Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20141212 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+..\USER\TestPacketHelper.cpp(6): error:  #5: cannot open source input file "regtarge.h": No such file or directory
+..\USER\TestPacketHelper.cpp:    #include "regtarge.h"
+..\USER\TestPacketHelper.cpp:                         ^
+..\USER\TestPacketHelper.cpp: ..\USER\TestPacketHelper.cpp: 0 warnings, 1 error
+compiling redirect.c...
+Target not created
+Build target 'Target 1'
+compiling TestPacketHelper.cpp...
+linking...
+Program Size: Code=5388 RO-data=268 RW-data=100 ZI-data=3180  
+"UartIT.axf" - 0 Error(s), 0 Warning(s).

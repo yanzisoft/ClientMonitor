@@ -1,0 +1,29 @@
+*** Creating Trace Output File 'UartIT.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"core_cm3.o"'
+### List of Objects: adding '"system_stm32f10x.o"'
+### List of Objects: adding '"misc.o"'
+### List of Objects: adding '"stm32f10x_gpio.o"'
+### List of Objects: adding '"stm32f10x_rcc.o"'
+### List of Objects: adding '"stm32f10x_usart.o"'
+### List of Objects: adding '"stm32f10x_exti.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"stm32f10x_it.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '".\startup_stm32f10x_md.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "core_cm3.o" "system_stm32f10x.o" "misc.o" "stm32f10x_gpio.o" "stm32f10x_rcc.o" "stm32f10x_usart.o" "stm32f10x_exti.o" "main.o" "stm32f10x_it.o" "delay.o" ".\startup_stm32f10x_md.o" --strict --scatter "UartIT.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\UartIT.map" -o "UartIT.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'UartIT.axf'
+### ADS-LD Command File: 'UartIT.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'UartIT.lnp', Handle=0x00002100
+### Writing '.lnp' file
+### ADS-LD Command file 'UartIT.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
